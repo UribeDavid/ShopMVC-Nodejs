@@ -25,8 +25,10 @@ const store = new MongoDBStore({
 
 const csrfProtection = csrf();
 
-const privateKey = fs.readFileSync('server.key');
-const certificate = fs.readFileSync('server.cert');
+// const privateKey = fs.readFileSync('server.key');
+// const certificate = fs.readFileSync('server.cert');
+
+
 //const sequelize = require('./util/database');
 // const Product = require('./models/product');
 const User = require('./models/user');
